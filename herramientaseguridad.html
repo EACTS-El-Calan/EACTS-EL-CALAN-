@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EACTS EL CALAN 🌴</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Estilos para el mensaje flotante -->
+    <style>
+        .mensaje-flotante {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #b6fcb6;
+
+            color: #000;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 8px;
+            animation: subir 3s ease-in-out infinite;
+            z-index: 9999;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes subir {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translateY(-20px);
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Mensaje flotante animado -->
+    <div class="mensaje-flotante">EACTS EL CALAN</div>
+
+    <div class="container">
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/porta22.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (6) (2).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (11) (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (12).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ti (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">EACTS EL CALAN🌴 </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos 
+                                </a>
+                               <ul class="dropdown-menu">
+                                     <li><a class="dropdown-item active" href="Fertilizantes.html">Fertilizantes</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Herbicidas.html">Herbicidas</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="Incecticidas.html"> Incecticidas</a></li>
+                                    <li><a class="dropdown-item" href="Aceites.html">Aceites </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="veterinaria.html">Veterinaria </a>
+                                    </li> <li><a class="dropdown-item" href="Accesorios.html">Accesorios </a></li>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Equipo de seguridad </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Herramientastrabajo.html">Herramientas de trabajo </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Vivero.html">Vivero </a>
+                                    </li>
+                                </ul>
+                            </li>
+                           
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col md-3">
+                <div class="list-group">
+                    <a href="#Conceptos " class="list-group-item list-group-item-action active" aria-current="true">
+
+                        TIENDA DE INSUMOS EL EXITO 
+                    </a>
+                    <a href="#Concepto Biológico" class="list-group-item list-group-item-action">Equipo de seguridad </a>
+                   
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <hr>
+                    <div id="Que es?">
+                        <h1>Equipo de seguridad 👷</h1>
+                        <p>El equipo de seguridad es el conjunto de elementos diseñados para proteger a las personas durante actividades laborales, especialmente en ambientes de riesgo como agricultura, construcción, industria o laboratorios.
+
+
+
+                        </p>
+                    </div>
+                    <hr>
+
+            <div id="Flores">
+                        <h1></h1>
+                        <p></li>
+                        </p>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/panza (1).jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CINTURON LUMBAR JYRSA</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/wuante.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE DE CUERO PULIDO </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/huante.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE DE ALGODON CON PUNTOS DE PVC </h5>
+                                        <p class="card-text">
+
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/negro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE DE RECOLECCION</h5>
+                                        <p class="card-text">
+                                        
+                                     </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/negronegro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE DE RECOLECCION </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/verde.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE DE NITRILO CORDOVA HULE </h5>
+                                        <p class="card-text"> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/guante.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GUANTE GRIS LARGO </h5>
+                                        <p class="card-text">
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/fajas.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> LENTES TORRENS NEGRO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/jagas-removebg-preview.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">LENTES TORRENS CLAROS </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="imG/Captura de pantalla_6-10-2025_9242_.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CHALECO DE SEGURIDAD NARANJA</h5>
+                                        <p class="card-text">
+
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/audifino-removebg-preview.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">OREJERA AUDITIVA BULLHEAD SAFETY</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/chalecote.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CAPOTE AMARILLO DE DOS PIEZAS </h5>
+                                        <p class="card-text">
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col">
+                                <div class="card">
+                                    <img src="img/botas.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOTAS INDUSTRIAL 7 GATOS </h5>
+                                        <p class="card-text"> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/botaamarillaabajo.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOTAS DE PVC PREDATOR </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/botafoca.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOTAS FOCA </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/botaroja.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOTAS INDUSTRIAL MONTANA PLANTILLA ROJA</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/mascariua44.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MASCARILLA QUIRURJICA AZUL </h5>
+                                        <p class="card-text"> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/Captura de pantalla_6-10-2025_9133_www.pixelcut.ai.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            
+                                            TAPONES AUDITIVOS </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/fanta.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">PONCHO IMPERMEABLE DE LLUVIA </h5>
+                                        <p class="card-text">
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col">
+                                <div class="card">
+                                    <img src="img/masca.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CARETA GUADAÑA</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col">
+                                <div class="card">
+                                    <img src="img/cascoverdeee.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CASCO DE SEGURIDAD VERDE </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col">
+                                <div class="card">
+                                    <img src="img/WhatsApp_Image_2025-10-06_at_8.29.04_AM-removebg-preview.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CASCO DE SEGURIDAD AMARILLO </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="col">
+                                <div class="card">
+                                    <img src="img/blanco-removebg-preview.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CASCO DE SEGURIDAD BLANCO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="col">
+                                <div class="card">
+                                    <img src="img/ppo.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CHALECO DE CINTA REFLECTIVO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/DELANTAR.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DELANTAR DE LONA BLANCA </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/CINTURONGRAN.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> CINTURON DE HEBILLA </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/Captura de pantalla_9-10-2025_81718_web.whatsapp.com.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DELANTAR AMARILLO REFORZADO </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="col">
+                                <div class="card">
+                                    <img src="img/M-removebg-preview (1).png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MASCARILLA DOBLE FILTRO 3M  </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                       
+
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/Captura de pantalla_6-10-2025_95848_web.whatsapp.com.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CINTA DE PRECAUCION </h5>
+                                        <p class="card-text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+
+                <p class="text-center">
+                                         E.A.C.T.S EL CALAN
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+

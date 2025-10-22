@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EACTS EL CALAN</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <style>
+    /*--- Estilos para el mensaje flotante ---*/
+    .mensaje-flotante {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      background-color: #b6fcb6;
+      color: #000;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      font-weight: bold;
+      z-index: 9999;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      animation: subir 3s ease-in-out infinite;
+    }
+
+    @keyframes subir {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      50% {
+        transform: translateY(-20px);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /*--- Estilos para el texto de bienvenida ---*/
+    .bienvenida {
+      animation: parpadeo 1.5s infinite;
+      color: #408423;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 28px;
+    }
+
+    @keyframes parpadeo {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="bienvenida"> BIENVENIDOS A TIENDA DE INSUMOS EL EXITO  🌾</h1>
+
+  <!-- Aquí sigue tu contenido original -->
+  <!-- Puedes colocar tus secciones como Misión, Visión, Productos, etc. -->
+
+  <div class="mensaje-flotante">
+    EACTS EL CALAN 
+  </div>
+</body>
+</html>
+
+
+    <div class="container">
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/porta22.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (6) (2).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (11) (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (12).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ti (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">EACTS EL CALAN 🌴</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a hrer="#" class="nav-link active" aria-current="page">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos 
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Fertilizantes.html">Fertilizantes</a></li>
+                                    <li><a class="dropdown-item" href="Herbicidas.html">Herbicidas </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="Incecticidas.html">Incecticidas</a></li>
+                                    <li><a class="dropdown-item" href="Aceites.html">Aceites </a></li>
+                                    <li><a class="dropdown-item" href="Accesorios.html">Accesorios </a></li>
+                                     <li><a class="dropdown-item" href="veterinaria.html">Veterinaria </a></li>
+                                    <li><a class="dropdown-item" href="herramientaseguridad.html">Equipo de seguridad  </a></li>
+                                    <li><a class="dropdown-item" href="Herramientastrabajo.html">Herramientas de trabajo</a>
+                                    <li><a class="dropdown-item" href="Vivero.html">Vivero</a>
+                                    </li>
+                                </ul>
+                            </li>
+                           
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col md-3">
+                <div class="list-group">
+                    <a href="#bienvenido" class="list-group-item list-group-item-action active" aria-current="true">
+                        Bienvenidos
+
+                    </a>
+                    <a href="#sobreelasflores" class="list-group-item list-group-item-action">Mision</a>
+                    <a href="#Funcionesprincipal" class="list-group-item list-group-item-action">Vision</a>
+                    <a href="#Funcionenloshumanos" class="list-group-item list-group-item-action">Horarios </a>
+                    <a href="#Flores" class="list-group-item list-group-item-action">Ubicacion</a>
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <hr>
+                    <div id="bienvenido">
+                        <h1>  TIENDA DE INSUMOS EL ÉXITO🌴🌽</h1>
+                      
+                        </a>
+                        <p>Somos tu aliado en el campo, ofreciendo fertilizantes, semillas y herramientas de calidad para impulsar tu cosecha.
+                        </p>
+                    </div>
+                    <hr>
+                    <div id="sobreelasflores">
+                        <h1>Mision </h1>
+                    </a>
+                            <p>Somos Una Empresa Asociativa Campesina de transformacion y servicios en el Segundo Grado de Integracion, dedicados a producir y vender Plantas del Vivero de Palma Africana Certificada , Venta de Insumos y Fertilizantes, Herramientas de Trabajo, Equipo de Seguridad, y Servicios Financieros de Ahorro y Prestamos.
+                            </p>
+                        
+                        </p>
+
+                    </div>
+                    <hr>
+                    <div id="#Funcionesprincipal">
+                        <h1>Vision </h1>
+                    </a>
+                            <p>Mantenernos Como Una Empresa Lider para el apoyo y crecimiento de las empresas de base socias y productores independientes.
+                            </p>
+                    
+
+                    </div>
+                    <hr>
+                    <div id="#Funcionenloshumanos">
+                        <h1>Horarios🕖 </h1>
+                         </a>
+                        <p>
+                        </p>
+                        <div class="container">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="item-horarios">
+        <h4></h4>
+        <ul>
+          <li><strong>Lunes:</strong> 7:00 AM – 4:00 PM</li>
+          <li><strong>Martes:</strong> 7:00 AM – 4:00 PM</li>
+          <li><strong>Miércoles:</strong> 7:00 AM – 4:00 PM</li>
+          <li><strong>Jueves:</strong> 7:00 AM – 4:00 PM</li>
+          <li><strong>Viernes:</strong> 7:00 AM – 4:00 PM</li>
+          <li><strong>Sábado:</strong> 7:00 AM – 12:00 PM</li>
+          <li><strong>Domingo:</strong> Cerrado</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+ <h2 style="font-size:28px; font-weight:bold; margin-bottom:10px;">Ubicación📍</h2>
+<p style="font-size:18px; line-height:1.6;">
+  📍 Col. Kilómetro Dos, Baracoa, Puerto Cortés, Cortés, Honduras, C.A. Contiguo a Ferretería Bienvenidos.<br>
+  <a href="https://maps.app.goo.gl/k4EvtYuZnxBzGrLcA" target="_blank" style="color:#00cc66; font-weight:bold; text-decoration:none;">
+    Ver en Google Maps
+  </a>
+</p>
+
+
+                                  
+ 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+
+                <p class="text-center">
+                    E.A.C.T.S. EL CALAN 
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vivero Dami | Tienda de Insumos el Exito</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Archivos.css">
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .imagenes-mini {
+      padding: 40px 20px;
+      background-color: #f5f5f5;
+    }
+
+    .imagenes-mini h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 24px;
+      color: #2e7d32;
+    }
+
+    .mini-galeria {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .producto {
+      text-align: center;
+      max-width: 320px;
+    }
+
+    .producto img {
+      width: 320px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .producto img:hover {
+      transform: scale(1.08);
+    }
+
+    .concepto {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .galeria-horizontal {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+
+    .imagen-larga {
+      flex: 1 1 45%;
+      text-align: center;
+    }
+
+    .imagen-larga img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    .imagen-larga p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #2e7d32;
+    }
+
+    .videos-vivero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px 20px;
+    }
+
+    .video-box {
+      flex: 1 1 38%;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    }
+
+    .video-box video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .video-box {
+        flex: 1 1 100%;
+      }
+
+      .producto img {
+        width: 220px;
+      }
+
+      .imagen-larga img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú principal -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TIENDA DE INSUMOS EL EXITO </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Productos 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="Fertilizantes.html">Fertilizantes</a></li>
+              <li><a class="dropdown-item" href="Herbicidas.html">Herbicidas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Incecticidas.html"> Incecticidas</a></li>
+              <li><a class="dropdown-item" href="Aceites.html">Aceites </a></li>
+              <li><a class="dropdown-item" href="veterinaria.html">Veterinaria </a></li>
+               <li><a class="dropdown-item" href="Accesorios.html">Accesorios </a></li>
+              <li><a class="dropdown-item" href="herramientaseguridad.html">Equipo de seguridad </a></li>
+              <li><a class="dropdown-item" href="Herramientastrabajo.html">Herramientas de trabajo </a></li>
+              <li><a class="dropdown-item" href="#">Vivero </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- Sección de imágenes grandes primero -->
+  <section class="imagenes-mini">
+    <h3>🌱 Productos Vivero </h3>
+    <div class="mini-galeria">
+
+      <div class="producto">
+        <img src="img/viverolame.png" alt="GRAP Super Gun">
+        <p class="concepto">VIVERO LAME </p>
+      </div>
+
+      <div class="producto">
+        <img src="img/i.jpg" alt="Root Tou Glyphosato">
+        <p class="concepto">VIVERO DAMI+</p>
+      </div>
+
+    </div>
+
+    <!-- Imágenes ampliadas alargadas y alineadas -->
+    <div class="galeria-horizontal">
+      <div class="imagen-larga">
+        <img src="img/t.jpeg" alt="Vivero LAME ampliado">
+        <p>🌱 Plantas lame</p>
+      </div>
+      <div class="imagen-larga">
+        <img src="img/D.jpg" alt="Vivero DAMI+ ampliado">
+        <p>🌱 Plantas dami+</p>
+      </div>
+    </div>
+
+  </section>
+
+<!-- Sección de videos debajo -->
+<section class="videos-vivero" style="display:flex; gap:20px;">
+  <div class="video-box" style="flex:1;">
+    <video 
+      poster="img/image.jpeg" 
+      style="width:100%; height:100%; object-fit:cover; border-radius:8px;" 
+      muted 
+      playsinline>
+      <!-- No se reproduce ni muestra controles -->
+    </video>
+  </div>
+  <div class="video-box" style="flex:1;">
+    <img 
+      src="img/DA1.jpeg" 
+      alt="Imagen de cultivo" 
+      style="width:100%; height:100%; object-fit:cover; border-radius:8px;">
+  </div>
+</section>
+
+
+
+  <footer>
+    <p>&copy; 2025 Tienda de Insumos El Éxito</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

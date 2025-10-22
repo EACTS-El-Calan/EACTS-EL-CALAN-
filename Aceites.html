@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EACTS EL CALAN 🌴</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Estilos para el mensaje flotante -->
+    <style>
+        .mensaje-flotante {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #b6fcb6;
+
+            color: #000;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 8px;
+            animation: subir 3s ease-in-out infinite;
+            z-index: 9999;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes subir {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translateY(-20px);
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Mensaje flotante animado -->
+    <div class="mensaje-flotante">EACTS EL CALAN</div>
+    <div class="container">
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                 <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/porta22.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (6) (2).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (11) (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/untitled-0 (12).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ti (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">EACTS EL CALAN🌴 </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos 
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active" href="Fertilizantes.html">Fertilizantes</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Herbicidas.html">herbicidas</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="Incecticidas.html"> Incecticidas</a></li>
+                                    <li><a class="dropdown-item" href="#">Aceites </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="veterinaria.html">Veterinaria </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="herramientaseguridad.html">Equipo de seguridad </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Herramientastrabajo.html">Herramientas de trabajo  </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Vivero.html">Vivero </a>
+                                    </li>
+                                </ul>
+                            </li>
+                           
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col md-3">
+                <div class="list-group">
+                    <a href="#Conceptos " class="list-group-item list-group-item-action active" aria-current="true">
+
+                        TIENDA DE INSUMOS EL EXITO 
+                    </a>
+                    <a href="#Concepto Biológico" class="list-group-item list-group-item-action">Aceites</a>
+                   
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <hr>
+                    <div id="Que es?">
+                        <h1>Aceites 🛢️</h1>
+                        <p>l aceite es una sustancia líquida, viscosa y generalmente insoluble en agua que puede ser de origen vegetal, animal, mineral o sintético y se usa para lubricar, proteger, cocinar o como base en productos industriales y agrícolas según su tipo y composición.
+
+
+                        </p>
+                    </div>
+                    <hr>
+
+            <div id="Flores">
+                        <h1></h1>
+                        <p></li>
+                        </p>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/1L.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CASTROL ACTEVO CUARTO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ECHO CUARTO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/litroooo.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CHEVRON ONE CUARTO</h5>
+                                        <p class="card-text">
+
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/gal1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">OREGON 4T 30 CUARTO</h5>
+                                        <p class="card-text">
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/1LL.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MOTUL 3000 20W50 4T CUARTO </h5>
+                                        <p class="card-text">
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/li1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SUPERMAX 10W-30 CUARTO</h5>
+                                        <p class="card-text"> 
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/l1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HAVOLINE CUARTO</h5>
+                                        <p class="card-text">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/lit1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">STIHL CUARTO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/litro1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">URSA CUARTO</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/acei1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DELO GEAR GALÓN</h5>
+                                        <p class="card-text">
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/gao1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">URSA GALÓN</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/g1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">STIHL GALÓN</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col">
+                                <div class="card">
+                                    <img src="img/LJJ1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GEAR LUBER GALÓN</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/gal1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ONE GALÓN</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/GALO.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">COOLANT GALON</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/AZULACE1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA DELO 15W-40</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/AZULCLAR1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA DELO GEAR 80W-90</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/P.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA VALVOLINE 20W-50</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/tambo3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA HYDRAULIC PLUS ISO 46</h5>
+                                        <p class="card-text"> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/tambo2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA VALVOLINE 15W-40</h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/WANGG.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA LIQUIDO PARA FRENOS </h5>
+                                        <p class="card-text">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/tambo1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CUBETA URSA SAE 50</h5>
+                                        <p class="card-text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+
+                <p class="text-center">
+                                         E.A.C.T.S EL CALAN
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
